@@ -18,7 +18,6 @@ let colors: string[] = ['red', 'green', 'blue'];
 let nums: number[] = [1, 3, 5, 7];
 let isBoolArr: boolean[] = [true, false, true];
 
-
 /*
    Class Type
  */
