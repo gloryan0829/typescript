@@ -2,8 +2,20 @@
 <html lang="ko">
 <head>
     <title>Map</title>
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;  /* The height is 400 pixels */
+            width: 100%;  /* The width is the width of the web page */
+        }
+    </style>
 </head>
 <body>
-    <script src="./src/index.ts"></script>
+    <div >
+        <div id="map"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU"
+            type="text/javascript"></script>
+    <script async defer src="./index.ts"></script>
 </body>
 </html>
